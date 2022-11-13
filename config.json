@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0",
+    "name": "Centovacastpanel.name",
+    "description": "Centovacastpanel.description",
+    "authors": [
+        {
+            "name": "Gigaion",
+            "url": "https://gigaion.com"
+        }
+    ],
+    "package": {},
+    "service": {},
+    "module": {
+        "row": "Centovacastpanel.module_row",
+        "rows": "Centovacastpanel.module_row_plural",
+        "row_key": "server_name",
+        "group": "Centovacastpanel.module_group"
+    },
+    "email_tags": {
+        "module": [
+			"adminusername",
+			"adminapikey",
+			"ipaddress",
+			"hostname",
+			"usessl",
+			"useproxy"
+		],
+        "package": [
+			"package"
+		],
+        "service": [
+            "radiousername",
+            "radiopassword"
+        ]
+    }
+}
